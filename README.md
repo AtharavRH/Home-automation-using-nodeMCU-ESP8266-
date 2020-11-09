@@ -24,12 +24,15 @@ https://github.com/blynkkk/blynk-library.git
  mode_3 = turnvOFF
  
  8> Go to IFTTT  and signin -https://ifttt.com/home
- 9> create a new applet from this -https://ifttt.com/create/if-google-assistant
- 10>Configure the request and response 
+ 
+ 9> create a new applet from this -https://ifttt.com/create/if-google-assistant.
+ 
+ 10>Configure the request and response.
+ 
  11>Configure the webrequest by setting the URL  by appropriate auth token got by blink and corresponding port.(blynk app INDIA server)
  http://188.166.206.43/ YourAuthTokenHere / update / DigitalPinToBeUpdateHere
  METHOD: PUT
  CONTENT TYPE : application/json
  body : ["0"]
  
- 10> And you are done . Setup  power supplies and you are ready to control your home with your voice. 
+ 11> And you are done . Setup  power supplies and you are ready to control your home with your voice. 
